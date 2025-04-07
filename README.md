@@ -1,4 +1,21 @@
-### This repository is no longer maintained!
+
+
+## 🚀 Task 1 – CI/CD Pipeline with GitHub Actions
+
+This project is a part of a DevOps internship task to automate code deployment using a CI/CD pipeline.  
+I used **GitHub Actions** to create a pipeline that automatically runs tests, builds a Docker image, and pushes it to **DockerHub** when I push code to the `main` branch.
+
+### 🔧 Tools Used
+- Node.js  
+- GitHub & GitHub Actions  
+- Docker & DockerHub
+
+### 📁 What I Did
+- Cloned a sample Node.js app
+- Created a GitHub Actions workflow file in `.github/workflows/main.yml`
+- Set up CI/CD steps: install → test → build Docker image → push to DockerHub
+- Used GitHub Secrets to store DockerHub credentials securely
+
 
 **For the most up to date test app to get you started on Heroku, head on over to [`node-js-getting-started`](https://github.com/heroku/node-js-getting-started).**
 
